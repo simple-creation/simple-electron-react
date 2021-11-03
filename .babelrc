@@ -1,0 +1,28 @@
+
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    ["import", {
+      "libraryName": "antd",
+      "libraryDirectory": "lib",
+      "style": true
+    }],
+    ["import", {
+      "libraryName": "simple-framework",
+      "libraryDirectory": "lib/components",
+      "style": true
+    },
+    "simple-framework"
+  ]
+    // ["@babel/plugin-transform-modules-umd", {
+    //   "globals": {
+    //     "es6-promise": "Promise"
+    //   }
+    // }]
+  ]
+
+}
+
+
+

@@ -1,0 +1,63 @@
+{
+  "name": "my-react",
+  "version": "0.1.0",
+  "private": true,
+  "main":"src/main/index.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^29.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "antd": "^4.16.10",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-route": "^1.0.3",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "react-scripts test",
+    "dev": "webpack-dev-server --mode development --hot  && electron .",
+    "dev-main": "electron .",
+    "dev-web": "webpack-dev-server --mode development --open --hot"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-decorators": "^7.15.8",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.13.3",
+    "copy-webpack-plugin": "^6.4.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^2.0.0",
+    "electron": "^15.3.0",
+    "electron-prebuilt": "^1.4.13",
+    "html-webpack-plugin": "^4.5.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "rc-queue-anim": "^2.0.0",
+    "rc-scroll-anim": "^2.7.6",
+    "rc-tween-one": "^2.7.3",
+    "simple-framework": "^1.0.46",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
